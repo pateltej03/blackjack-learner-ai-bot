@@ -3,6 +3,7 @@ import numpy as np  # type: ignore
 import math
 
 env = gym.make("Blackjack-v1", natural=False, sab=False)
+# env = gym.make("Blackjack-v1", natural=False, sab=False, render_mode="human")
 
 alpha = 0.3           # Learning rate
 gamma = 0.9           # Discount factor

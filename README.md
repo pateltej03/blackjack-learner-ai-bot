@@ -33,17 +33,33 @@ The agent’s goal is to beat the dealer by learning an optimal policy that maxi
 
 ---
 
+## 📸 Demo
+
+### 👁️‍🗨️ GUI-Based Blackjack Gameplay
+
+The agent plays the game with full render enabled — ideal for visualizing every decision made:
+<img src="./blackjack_1.gif" width="500" title="Blackjack GUI Gameplay">
+
+### ⚡ Fast Terminal Training (No GUI)
+
+Watch how the model trains and logs results rapidly in the terminal for speed and performance evaluation:
+<img src="./blackjack_2.gif" width="500" title="Blackjack Fast Mode CLI">
+
+---
+
 ## 🚀 How to Run
 
 1. Install the environment:
 
     ```bash
     pip install gymnasium
-
     ```
 
 2. Run the training script:
-   python3 solution.py
+
+    ```bash
+    python3 solution.py
+    ```
 
 ---
 
